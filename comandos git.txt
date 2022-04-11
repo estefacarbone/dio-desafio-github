@@ -1,0 +1,28 @@
+Comandos git
+- Limpar a tela: CTRL + l ou ALT + f8
+- Listar repositórios: ls
+- Entrar em uma pasta: cd workspace
+- Voltar na pasta de cima: cd ..
+- Criar pastas: mkdir livro-receitas
+- Iniciar o codigo através do GIT: git init
+- Ver pastas ocultas: ls -a
+- Configuración inicial de GIT: git config --global user.email"estefacarbone@gmail.com"
+git config --global user.name estefacarbone
+- Move arquivo pra outra pasta mv strogonoff.md ./receitas/
+- Novo arquivo: echo > README.md
+- Conferir configurações: git config --list
+- Passar do git banch pro remoto: git remote add origin https://github.com/estefacarbone/livro-receitas.git
+- Mandar pro remoto: git push
+- Clonar no Git Bash: git clone https://github.com/estefacarbone/dio-desafio-github.git 
+
+
+
+Git init: iniciaruntr repositório
+Git add: o strogonoff passou de untracked (era novo) a staged. 
+Unmodified: arquivos que não foram modificados.
+De stage pra commit. E retorna pra unmodified. Acabei as alterações e vou tirar uma foto, um snapshot. Aguardam modificações. Se vc abrir ele, vai pra modified.. 
+É um ciclo. 
+
+git status: pra saber qual o status
+
+
